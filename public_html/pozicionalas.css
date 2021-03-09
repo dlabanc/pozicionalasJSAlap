@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+header {
+    position:fixed;
+    width:100%;
+    /*static - alap beállítás
+    fixed    - böngészőhöz képest pozícionál
+    absolute - valamihez képest pozícionál. 
+               szülőelem közül megkeresi a hozzá legközelebb álló relative tulajdonságút, 
+               és ahhoz képest pozícionál.
+    relative - Megadjuk az absolute viszonyítási alapját*/
+}
+
+main {
+    padding-top: 100px;
+    
+}
+
+footer {
+    position:fixed; 
+    width:100%;
+    bottom:0;
+    left:0;
+}
+
+#kerdojel {
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    z-index: 10;
+}
+
+nav {
+    position:absolute;
+    left:10px;
+}
+
+form {
+    position:relative;
+}
+#zar {
+    position:absolute; /*böngészőhöz képest pozícionál, mert nem tud máshoz. 
+                       Ami értéket nem adunk meg, azt a HTMLbeli helyzeteként határozza meg*/
+    top:15px;
+    right:10px;
+}
+
+#szamol {
+    position:relative;
+    top:10px;
+    left:220px;
+}
