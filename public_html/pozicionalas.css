@@ -8,7 +8,8 @@ header {
     absolute - valamihez képest pozícionál. 
                szülőelem közül megkeresi a hozzá legközelebb álló relative tulajdonságút, 
                és ahhoz képest pozícionál.
-    relative - Megadjuk az absolute viszonyítási alapját*/
+    relative - Megadjuk az absolute viszonyítási alapját | 
+               A HTML-beli helyéhez képest tudjuk eltolni az elemet.*/
 }
 
 main {
