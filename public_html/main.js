@@ -1,4 +1,4 @@
-    alert("HellĂł vilĂˇg!");
+    alert("Helló világ!");
     document.write("Helló világ");
     console.log("Lefutott a JS");
     document.getElementById("szoveg").innerHTML="Bekezdésbe írok";
