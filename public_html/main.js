@@ -1,5 +1,5 @@
-    alert("Helló világ!");
-    document.write("Helló világ");
+    alert("Hello világ!");
+    document.write("Hello világ");
     console.log("Lefutott a JS");
     document.getElementById("szoveg").innerHTML="Bekezdésbe írok";
 
